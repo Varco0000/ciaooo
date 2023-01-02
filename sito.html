@@ -1,0 +1,78 @@
+<html>
+<head>
+  <style>
+    /* il container deve avere una posizione assoluta per poter posizionare gli elementi all'interno di esso */
+    .container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    /* la striscia blu in alto avrà un'altezza fissa */
+    .top-bar {
+      height: 100px;
+      background-color: blue;
+    }
+
+    .top-bar .text {
+      color: rgb(233, 225, 225);
+      position: absolute;
+      top: 30px; /* spostata di 50px verso il basso */
+      left: 270px; /* spostata di 100px verso sinistra */
+      font-size: 200%
+    }
+
+    .house {
+      width: 120px;
+      height: 100px;
+      background-image: url('assets/images/house.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      left: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+        <div class="text">Sistema denunce Comune di Greenville</div>
+    </div>
+    <div class="house"></div>
+  </div>
+  <div class="center-square"></div>
+  <div class="center-square2">
+    <div class="center_square2 img"></div>
+  </div>
+  <a class="house"href="sito.html"></a>
+</body>
+</html>
+<style>
+    .immagine {
+      position: absolute;
+      top: 350px;
+      left: 250px;
+    }
+  </style>
+  
+  <div class="immagine">
+    <a href="crea_denunce.html">
+        <img src="assets/images/crea_denuncia.png" alt="il mio culo" height="300px">
+    </a>
+  </div>
+
+  <style>
+    .immagine2 {
+      position: absolute;
+      top: 350px;
+      left: 1300px;
+    }
+  </style>
+
+  <div class="immagine2">
+    <a href="denunce.html">
+        <img src="assets/images/gestione_denunce.png" alt="il mio culo" height="300px">
+    </a>
+  </div>
